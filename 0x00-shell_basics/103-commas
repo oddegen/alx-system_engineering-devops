@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -map | sort && echo -e "\n"
+echo -e $(ls -map | sort ) "\n"
